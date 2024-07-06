@@ -1,0 +1,13 @@
+.idea/
+.smarttomcat/
+.mvn/
+*.iml/
+out/
+bin/
+.DS_Store
+*.class
+.vscode/
+.idx/
+target/
+.classpath
+.project
