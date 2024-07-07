@@ -1,6 +1,12 @@
 <ui:composition xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:p="http://primefaces.org/ui"
                 template="../template/template.xhtml">
     <ui:define name="content">
         <h:outputText value="INDEX"/>
+        <p:dataTable value="#{['a','b','c']}" var="letter">
+            <p:column>
+                #{letter}
+            </p:column>
+        </p:dataTable>
     </ui:define>
 </ui:composition>
