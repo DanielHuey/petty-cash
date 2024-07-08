@@ -1,7 +1,7 @@
 .idea/
 .smarttomcat/
 .mvn/
-*.iml/
+*.iml
 out/
 bin/
 .DS_Store
